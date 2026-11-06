@@ -27,7 +27,6 @@ jobs:
         with:
           distribution: temurin
           java-version: '17'
-          cache: gradle
 
       # Install Flutter stable and cache dependencies
       - name: Set up Flutter
@@ -96,3 +95,4 @@ jobs:
           name: Expedition Aurelio ${{ github.ref_name }}
           generate_release_notes: true
           files: release-assets/app-release.apk
+
